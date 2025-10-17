@@ -1,4 +1,4 @@
-
+﻿
 import { connect } from 'cloudflare:sockets';
 
 let userID = '';
@@ -5814,4 +5814,5 @@ async function handleWebSocket(request) {
         status: 101,
         webSocket: client
     });
+
 }
